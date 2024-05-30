@@ -27,7 +27,7 @@ chart keypadmem 3x4keys[ROWS][COLS] = {
 {'7','8','9'},
 {'*','0','#'}
 };
-// object initialization
+// Initialization
 Keypad keypadmem3x4(KEYPADMEM3X4_PIN_COL1,KEYPADMEM3X4_PIN_COL2,KEYPADMEM3X4_PIN_COL3,KEYPADMEM3X4_PIN_ROW1,KEYPADMEM3X4_PIN_ROW2,KEYPADMEM3X4_PIN_ROW3,KEYPADMEM3X4_PIN_ROW4);
 Relay relayModule(RELAYMODULE_PIN_SIGNAL);
 SolenoidLock solenoidLock(SOLENOIDLOCK_PIN_GND);
